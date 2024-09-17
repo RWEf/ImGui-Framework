@@ -4,8 +4,6 @@
 
 # If you need an [__ImGui__][GotoImGui] template, Can use it for your project.
 
-[GotoImGui]: https://github.com/ocornut/imgui
-
 - C++ Main.h: Write this code to use the template.
 ```C++
 #include "ui.h"
@@ -47,7 +45,7 @@ int main() {
 <br>
 
 ## How to add render work?
-- C++ ui.h:
+- C++ [ui.h][GotoUI.h]:
 ```C++
     //namespace Render {...};
     template <class T>
@@ -64,16 +62,16 @@ int main() {
 <br>
 
 ## Where is the main rendering task?
-##### The main rendering task is in the __Render::UserInterface()__ function in the __user_interface.cpp__ file.
+#### The main rendering task is in the __Render::UserInterface()__ function in the [__user_interface.cpp__][GotoUI.cpp] file.
 
 <br>
 
 ## Where is ImGui variables config?
-##### This ImGui variables config of ImGui template is __ImGui_Cfg__ in the ui.h file.
+#### This ImGui variables config of ImGui template is [__ImGui_Cfg__][GotoUI.h] in the [ui.h][GotoUI.h] file.
 
 <br>
 
-- ## Here's the full example user_interface.cpp:
+- ## Here's the full example [user_interface.cpp][GotoUI.cpp]:
 ```C++
 #include "ui.h"
 #include <iostream>
@@ -117,7 +115,6 @@ int main() {
     }
 
     //UI render work...
-
     bool ini = false;
     Render::AddUI(
         [&ini]() {
@@ -153,3 +150,7 @@ int main() {
     return EXIT_SUCCESS;
 }
  ```
+
+[GotoImGui]: https://github.com/ocornut/imgui
+[GotoUI.h]: https://github.com/RWEf/ImGuiTemplate/blob/main/ImGui_Template_Src/UI/ui.h
+[GotoUI.cpp]: https://github.com/RWEf/ImGuiTemplate/blob/main/ImGui_Template_Src/UI/user_interface.cpp
