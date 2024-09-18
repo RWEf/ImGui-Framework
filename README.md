@@ -103,6 +103,7 @@ void Render::UserInterface() {
 - ## Here's the full example Main.h:
  ```C++
 #include "ui.h"
+#include <iostream>
 
 int main() {
     //Init the Hook.
