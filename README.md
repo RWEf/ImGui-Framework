@@ -18,7 +18,7 @@
 int main() {
     //Init the Hook.
     InitHook::SetUIInitHook();
-    InitHook::SetRanderHook();
+    InitHook::SetRenderHook();
 
     //Calls hook function.
     for (size_t i = 0; i < 4; i++) {
@@ -107,7 +107,7 @@ void Render::UserInterface() {
 int main() {
     //Init the Hook.
     InitHook::SetUIInitHook();
-    InitHook::SetRanderHook();
+    InitHook::SetRenderHook();
 
     //Calls hook function.
     for (size_t i = 0; i < 4; i++) {
