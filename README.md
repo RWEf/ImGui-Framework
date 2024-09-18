@@ -1,10 +1,10 @@
->> environment: C++17; Dx12; ImGui Master; Linker(d3d12.lib; d3dcompiler.lib; dxgi.lib).
+>> Environment: C++17; Dx12; ImGui Master; Linker(d3d12.lib; d3dcompiler.lib; dxgi.lib).
 
 <br>
 
-# If you need an [__ImGui__][GotoImGui] template, Can use it for your project.
+# If you need an [__ImGui__][GotoImGui] framework, Can use it for your project.
 
-- C++ Main.h: Write this code to use the template.
+- C++ Main.h: Write this code to use the framework.
 ```C++
 #include "ui.h"
 ```
@@ -67,7 +67,7 @@ int main() {
 <br>
 
 ## Where is ImGui variables config?
-#### This ImGui variables config of ImGui template is [__ImGui_Cfg__][GotoUI.h] in the [ui.h][GotoUI.h] file.
+#### This ImGui variables config of ImGui framework is [__ImGui_Cfg__][GotoUI.h] in the [ui.h][GotoUI.h] file.
 
 <br>
 
