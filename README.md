@@ -74,7 +74,6 @@ int main() {
 - ## Here's the full example [user_interface.cpp][GotoUI.cpp]:
 ```C++
 #include "ui.h"
-#include <iostream>
 
 void Render::UserInterface() {
 
